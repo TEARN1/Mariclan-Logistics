@@ -1,0 +1,84 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+    background: gold;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 50px;
+}
+
+.slogan {
+    position: relative;
+    top: -15;
+}
+
+.link {
+    width: 24%;
+    padding: 10px;
+    border: none;
+    background: black;
+    color: gold;
+}
+
+.link:hover {
+    background: rgb(68, 62, 26);
+    color: gold;
+}
+
+.about {
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
+.story {
+    text-align: center;
+    height: fit-content;
+    color: rgb(17, 17, 15);
+    padding: 40px;
+}
+.cl {
+    width: 180px;
+    height: 180px;
+    margin: 20px;
+    border-radius:15px;
+}
+.con {
+    text-align: center;
+    padding: 40px;
+
+}
+.btn {
+    width: 40px;
+    height: 40px;
+    padding-top: -0px;
+    margin-top: -19px;
+    padding: 30px;
+}
+.info {
+    padding-top: -0px;
+    margin-top: -19px;
+}
+.top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 3px;
+    opacity: .5;
+}
+.top:hover {
+    opacity: 1;
+}
+.truck {
+    width: 400px;
+}
+
+.answer {
+    background-color: rgb(70, 70, 45);
+    color: rgb(237, 219, 120);
+}
